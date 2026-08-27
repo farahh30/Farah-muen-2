@@ -1,6 +1,6 @@
 /* Design: Electric City Atlas — asymmetric editorial layout, map-route motifs, bold cobalt/coral accents, bilingual RTL/LTR experience. */
 import { useState } from "react";
-import { ArrowUpRight, AtSign, Check, Globe2, Linkedin, Mail, MapPin, Sparkles, Star, Instagram } from "lucide-react";
+import { ArrowUpRight, Check, Globe2, Linkedin, Mail, MapPin, Sparkles, Star } from "lucide-react";
 
 const heroArt = "/manus-storage/baladna-hero_8c5b4023.png";
 const deviceArt = "/manus-storage/baladna-device-art_0c992143.png";
@@ -145,7 +145,7 @@ export default function Home() {
 
       <section id="playground" className="playground-section section-pad"><div className="playground-head"><div><p className="eyebrow"><span className="station-dot" /> 04 — {t.playgroundEyebrow}</p><h2>{t.playgroundTitle}</h2></div><p>{t.playgroundText}</p></div><div className="playground-grid"><div className="play-card play-one"><span>01</span><div className="orbit"><span /><span /><span /></div><p>Interfaces<br />in motion</p></div><div className="play-card play-two"><span>02</span><div className="cursor-art">✦</div><p>Notes from<br />the process</p></div><div className="play-card play-three"><span>03</span><div className="type-art">Aa</div><p>Type, rhythm<br />& hierarchy</p></div></div></section>
 
-      <section id="contact" className="contact-section section-pad"><div className="contact-top"><p className="eyebrow">✦ {t.contactEyebrow}</p><span className="contact-star"><Star size={23} fill="currentColor" /></span></div><h2>{t.contactTitle}</h2><p className="contact-text">{t.contactText}</p><a className="contact-email" href="mailto:farahmuen@gmail.com">farahmuen@gmail.com <ArrowUpRight size={23} /></a><div className="social-row"><a href="https://www.behance.net/farahmuen" target="_blank" rel="noreferrer">Behance</a><a href="https://www.linkedin.com/in/farah-muen/" target="_blank" rel="noreferrer"><Linkedin size={16} /> LinkedIn</a><a href="https://instagram.com" target="_blank" rel="noreferrer"><Instagram size={16} /> Instagram</a></div></section>
+      <section id="contact" className="contact-section section-pad"><div className="contact-top"><p className="eyebrow">✦ {t.contactEyebrow}</p><span className="contact-star"><Star size={23} fill="currentColor" /></span></div><h2>{t.contactTitle}</h2><p className="contact-text">{t.contactText}</p><a className="contact-email" href="mailto:farahmuen@gmail.com">farahmuen@gmail.com <ArrowUpRight size={23} /></a><div className="social-row"><a href="https://www.behance.net/farahmuen" target="_blank" rel="noreferrer">Behance</a><a href="https://www.linkedin.com/in/farah-muen/" target="_blank" rel="noreferrer"><Linkedin size={16} /> LinkedIn</a></div></section>
 
       <footer className="footer"><span>{t.footer}</span><span>Designed with curiosity <span className="footer-mark">✦</span></span><a href="#home">Back to top ↑</a></footer>
     </main>
