@@ -2,11 +2,11 @@
 import { useState } from "react";
 import { ArrowUpRight, Check, Globe2, Linkedin, Mail, MapPin, Sparkles, Star } from "lucide-react";
 
-const heroArt = "/manus-storage/baladna-hero_8c5b4023.png";
-const deviceArt = "/manus-storage/baladna-device-art_0c992143.png";
-const mapArt = "/manus-storage/baladna-map-art_008df470.png";
-const farahMark = "/manus-storage/farah-mark_f89dd1f7.png";
-const farahProfile = "/manus-storage/farah-profile_facb01b4.jpeg";
+const heroArt = "/images/baladna-hero.webp";
+const deviceArt = "/images/baladna-device-art.webp";
+const mapArt = "/images/baladna-map-art.webp";
+const farahMark = "/images/farah-mark.png";
+const farahProfile = "/images/farah-profile.webp";
 
 type Language = "en" | "ar";
 
