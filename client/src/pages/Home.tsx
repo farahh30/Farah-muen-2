@@ -6,6 +6,7 @@ const heroArt = "/manus-storage/baladna-hero_8c5b4023.png";
 const deviceArt = "/manus-storage/baladna-device-art_0c992143.png";
 const mapArt = "/manus-storage/baladna-map-art_008df470.png";
 const farahMark = "/manus-storage/farah-mark_f89dd1f7.png";
+const farahProfile = "/manus-storage/farah-profile_facb01b4.jpeg";
 
 type Language = "en" | "ar";
 
@@ -137,7 +138,7 @@ export default function Home() {
 
       <section id="about" className="about-section section-pad">
         <div className="about-marker"><span>02</span><span className="marker-line" /><span className="marker-caption">station / about</span></div>
-        <div className="about-content"><p className="eyebrow">✦ {t.aboutEyebrow}</p><h2>{t.aboutTitle}</h2><div className="about-columns"><div><p>{t.aboutText}</p><p>{t.aboutText2}</p></div><div className="education-card"><span className="card-label">Education</span><strong>{t.education}</strong><span>{t.university}</span><span className="edu-year">2019 — 2024</span></div></div></div>
+        <div className="about-content"><p className="eyebrow">✦ {t.aboutEyebrow}</p><h2>{t.aboutTitle}</h2><div className="about-columns"><div><p>{t.aboutText}</p><p>{t.aboutText2}</p></div><div className="about-side"><figure className="about-portrait"><img src={farahProfile} alt="Farah Muen, UX/UI Designer" /><figcaption><span className="portrait-dot" /> Farah Muen · UX/UI Designer</figcaption></figure><div className="education-card"><span className="card-label">Education</span><strong>{t.education}</strong><span>{t.university}</span><span className="edu-year">2019 — 2024</span></div></div></div></div>
       </section>
 
       <section className="skills-section section-pad"><div className="skills-intro"><p className="eyebrow"><span className="station-dot" /> 03 — {t.skills}</p><h2>Tools for making<br /><em>meaning visible.</em></h2></div><div className="skill-cloud">{skillList.map((skill, i) => <span key={skill} className={i % 4 === 0 ? "skill-pill accent" : "skill-pill"}>{skill}{i % 4 === 0 && <Check size={13} />}</span>)}</div></section>
