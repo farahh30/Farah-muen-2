@@ -11,3 +11,4 @@
 - [x] إضافة وسم Google Search Console والتحقق من وجوده في مخرجات الإنتاج؛ تبقّى إعادة النشر ثم الضغط على تأكيد.
 - [x] إضافة robots.txt وsitemap.xml وcanonical URL باستخدام farah-muen-2.vercel.app.
 - [x] فحص ملفات SEO في مخرجات الإنتاج؛ تبقّى إعادة النشر على Vercel من لوحة التحكم.
+- [x] إزالة أي ظهور أو رابط لـ WhatsApp من الموقع والإبقاء على البريد الإلكتروني وBehance وLinkedIn.
